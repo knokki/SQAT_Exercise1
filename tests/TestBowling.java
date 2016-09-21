@@ -4,11 +4,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class TestBowling {
-	
+	private BowlingGame game;
 	
 	@Before
 	public void setUp(){
-		
+		this.game = new BowlingGame();
 	}
 
 	@Test(expected = BowlingException.class)
@@ -23,6 +23,13 @@ public class TestBowling {
 	public void TestFrameScoreWithCorrectValues() throws BowlingException{
 		Frame frame = new Frame(4,5);
 		assertEquals(9, frame.score());
+	}
+	@Test
+	public void TestSimpleWholeGame() throws BowlingException{
+		for (int i=0; i <10; i++){
+			Frame frame = new Frame(2,2);
+			this.game.addFrame(frame);
+		}
 	}
 
 }

@@ -54,3 +54,8 @@ RefactoringAction 1474458870046 TestBowling.java ADD void TestFrameWithIncorre F
 RefactoringAction 1474458880059 TestBowling.java REMOVE TestFrameWithIncorre FIELD
 EditAction 1474458885440 TestBowling.java 623 4 4 1
 EditAction 1474458964138 BowlingGame.java 678 4 4 0
+RefactoringAction 1474458984118 TestBowling.java ADD void Test FIELD
+RefactoringAction 1474458990642 TestBowling.java RENAME Test=>void TestSimpleWholeGame FIELD
+RefactoringAction 1474458993156 TestBowling.java RENAME TestSimpleWholeGame=>void TestSimpleWholeGame() METHOD
+RefactoringAction 1474459068939 TestBowling.java ADD BowlingGame game FIELD
+EditAction 1474459087827 TestBowling.java 851 5 6 1
