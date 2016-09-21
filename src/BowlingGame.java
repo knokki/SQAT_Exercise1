@@ -48,7 +48,7 @@ public class BowlingGame {
 			}
 			else if (frame.isSpare()){
 				int spareScore = 10;
-				if (i < frames.size()){
+				if (i+1 < frames.size()){
 					spareScore += frames.get(i+1).getFirstThrow();
 				}
 				totalScore += spareScore;
