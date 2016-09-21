@@ -169,3 +169,6 @@ RefactoringAction 1474462005852 Frame.java RENAME Frame(int, int, bool)=>Frame(i
 EditAction 1474462007274 Frame.java 1301 7 13 0
 EditAction 1474462043081 BonusFrame.java 177 1 1 0
 EditAction 1474462051095 BowlingGame.java 1681 4 7 0
+UnitTestCaseAction 1474462055556 TestBowling.java FAIL
+UnitTestSessionAction 1474462055557 TestBowling.java FAIL
+EditAction 1474462085307 TestBowling.java 3647 14 51 11

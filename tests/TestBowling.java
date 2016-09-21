@@ -126,7 +126,7 @@ public class TestBowling {
 	}
 	@Test
 	public void TestBestScore() throws BowlingException{
-		for (int i=0; i <0; i++){
+		for (int i=0; i <10; i++){
 			Frame frame = new Frame(10,0);
 			this.game.addFrame(frame);
 		}
