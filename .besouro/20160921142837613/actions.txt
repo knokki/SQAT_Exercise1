@@ -22,3 +22,8 @@ CompilationAction 1474458378576 TestBowling.java
 CompilationAction 1474458387019 TestBowling.java
 RefactoringAction 1474458405917 TestBowling.java RENAME TestFrameWithCorrectValues()=>void TestFrameInWithCorrectValues() METHOD
 EditAction 1474458490105 Frame.java 1046 6 10 0
+CompilationAction 1474458491665 Frame.java
+RefactoringAction 1474458495225 BowlingException.java ADD BowlingException(String) METHOD
+RefactoringAction 1474458515038 BowlingException.java ADD string msg FIELD
+RefactoringAction 1474458542167 BowlingException.java ADD String getMessage() METHOD
+EditAction 1474458546763 BowlingException.java 200 2 2 0
