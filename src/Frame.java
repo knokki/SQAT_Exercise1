@@ -23,13 +23,17 @@ public class Frame {
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		//to be implemented
-		return false;
+		return (this.firstThrow  == 10)? true : false;
 	}
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
+		if (!this.isStrike()){
+			int value = this.firstThrow + this.secondThrow;
+			if (value == 10){
+				return true;
+			}
+		}
 		return false;
 	}
 }
