@@ -15,7 +15,7 @@ public class Frame {
 			throw new BowlingException("Too high score given in single frame");
 		}
 	}
-	protected Frame(int firstThrow, int secondThrow, boolean bonus){
+	public Frame(int firstThrow, int secondThrow, boolean bonus){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 	}
