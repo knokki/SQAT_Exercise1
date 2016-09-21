@@ -65,7 +65,7 @@ public class TestBowling {
 		assertEquals(64, this.game.score());
 	}
 	@Test
-	public void TestMultipleStrikesInGame(){
+	public void TestMultipleStrikesInGame() throws BowlingException{
 		Frame frame = new Frame(10,0);
 		this.game.addFrame(frame);
 		frame = new Frame(10,0);
@@ -74,6 +74,7 @@ public class TestBowling {
 			frame = new Frame(2,2);
 			this.game.addFrame(frame);
 		}
+		assertEquals(64, this.game.score());
 	}
 
 }

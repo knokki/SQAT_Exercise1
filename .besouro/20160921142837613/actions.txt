@@ -101,3 +101,6 @@ RefactoringAction 1474460362935 TestBowling.java ADD void Test FIELD
 RefactoringAction 1474460374954 TestBowling.java RENAME Test=>void TestMultipleStrikesIn FIELD
 RefactoringAction 1474460376470 TestBowling.java RENAME TestMultipleStrikesIn=>void TestMultipleStrikesInGame() METHOD
 EditAction 1474460391019 TestBowling.java 2072 9 26 5
+CompilationAction 1474460392647 TestBowling.java
+CompilationAction 1474460401673 TestBowling.java
+EditAction 1474460564616 BowlingGame.java 1226 4 4 0
