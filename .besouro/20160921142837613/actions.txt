@@ -218,3 +218,5 @@ RefactoringAction 1474463324954 TestBowling.java ADD void TestRealF FIELD
 RefactoringAction 1474463326471 TestBowling.java RENAME TestRealF=>void TestRealGame FIELD
 RefactoringAction 1474463327988 TestBowling.java RENAME TestRealGame=>void TestRealGame() METHOD
 EditAction 1474463464937 TestBowling.java 4292 15 73 12
+UnitTestCaseAction 1474463468611 TestBowling.java OK
+UnitTestSessionAction 1474463468612 TestBowling.java OK
