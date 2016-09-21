@@ -30,6 +30,7 @@ public class TestBowling {
 			Frame frame = new Frame(2,2);
 			this.game.addFrame(frame);
 		}
+		
 	}
 
 }
