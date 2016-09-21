@@ -112,3 +112,6 @@ RefactoringAction 1474460781172 TestBowling.java ADD void TestMultipleSparesInAG
 RefactoringAction 1474460782687 TestBowling.java RENAME TestMultipleSparesInAGame=>void TestMultipleSparesInAGame() METHOD
 EditAction 1474460802328 TestBowling.java 2468 10 33 7
 EditAction 1474460823802 TestBowling.java 2468 10 33 7
+UnitTestCaseAction 1474460827587 TestBowling.java OK
+UnitTestSessionAction 1474460827588 TestBowling.java OK
+EditAction 1474460950880 BowlingGame.java 1394 4 4 0
