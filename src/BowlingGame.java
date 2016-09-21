@@ -53,7 +53,7 @@ public class BowlingGame {
 					}
 				}
 				else if (i+1 == 11){
-					 strikeScore += bonus.getFirstThrow();
+					 strikeScore += bonus.score();
 				}
 			
 				totalScore += strikeScore;
