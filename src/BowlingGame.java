@@ -33,9 +33,10 @@ public class BowlingGame {
 		for (int i=0; i<10; i++){
 			Frame frame = frames.get(i);
 			if (frame.isStrike()){
+				int strikeScore = 10;
 				if ( i+1 < frames.size()){
 					Frame fr = frames.get(i+1);
-					int strikeScore = 10;
+					
 					if (fr != null){
 						 strikeScore += fr.score();
 						 if (fr.isStrike()){
@@ -54,6 +55,9 @@ public class BowlingGame {
 						 }
 					}
 				}
+				else if (i+2 == 11){
+					 strikeScore += bonus.getFirstThrow();
+				 }
 			
 				totalScore += strikeScore;
 			}
@@ -69,12 +73,13 @@ public class BowlingGame {
 			}
 			
 		}
+		/*
 		if (frames.get(9).isSpare()){
 			totalScore += this.bonus.getFirstThrow();
 		}
 		if (frames.get(9).isStrike()){
 			totalScore += this.bonus.score();
-		}
+		}*/
 		return totalScore;
 	}
 }
