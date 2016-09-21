@@ -32,7 +32,15 @@ public class BowlingGame {
 					 strikeScore += frames.get(i+1).score();
 				}
 				totalScore += strikeScore;
-			}else {
+			}
+			else if (frame.isSpare()){
+				int spareScore = 10;
+				if (frames.get(i+1) != null){
+					spareScore += frames.get(i+1).getFirstThrow();
+				}
+				totalScore += spareScore;
+			}
+			else {
 				totalScore += frame.score();
 			}
 			

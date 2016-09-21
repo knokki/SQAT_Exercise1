@@ -71,3 +71,6 @@ RefactoringAction 1474459679326 TestBowling.java RENAME TestSimpleWholeGameWithA
 EditAction 1474459679378 TestBowling.java 1121 6 9 3
 EditAction 1474459781024 TestBowling.java 1179 6 11 3
 EditAction 1474459852694 TestBowling.java 1179 6 11 3
+UnitTestCaseAction 1474459857130 TestBowling.java OK
+UnitTestSessionAction 1474459857132 TestBowling.java OK
+EditAction 1474460033721 BowlingGame.java 1102 4 4 0
