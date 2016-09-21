@@ -5,6 +5,7 @@ public class BowlingException extends Exception {
 	public BowlingException(String string) {
 		this.msg = string;
 	}
+	@Override
 	public String getMessage(){
 		return msg;
 	}
