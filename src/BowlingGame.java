@@ -47,10 +47,7 @@ public class BowlingGame {
 								 }
 						 	 }
 							 else if (i+2 == 12){
-								 strikeScore += bonus.getSecondThrow();
-							 }
-							 else if (i+1 == 11){
-								 strikeScore += bonus.getFirstThrow();
+								 strikeScore += bonus.firstThrow();
 							 }
 						 }
 					}
