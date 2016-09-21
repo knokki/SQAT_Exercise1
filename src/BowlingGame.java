@@ -46,13 +46,13 @@ public class BowlingGame {
 									 strikeScore += sfr.getFirstThrow();
 								 }
 						 	 }
-							 else if (i+2 == 12){
+							 else {
 								 strikeScore += bonus.getFirstThrow();
 							 }
 						 }
 					}
 				}
-				else if (i+1 == 11){
+				else{
 					 strikeScore += bonus.score();
 				}
 			
