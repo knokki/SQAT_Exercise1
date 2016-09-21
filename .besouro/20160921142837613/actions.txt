@@ -14,3 +14,11 @@ RefactoringAction 1474458328206 TestBowling.java RENAME Test=>void TestFrame FIE
 RefactoringAction 1474458339217 TestBowling.java RENAME TestFrame=>void TestFrameWithCorrectValues() METHOD
 RefactoringAction 1474458351262 TestBowling.java ADD void setUp() METHOD
 EditAction 1474458357689 TestBowling.java 231 2 1 0
+CompilationAction 1474458359643 TestBowling.java
+CompilationAction 1474458359644 TestBowling.java
+RefactoringAction 1474458361791 TestBowling.java ADD import org.junit.Before IMPORT
+CompilationAction 1474458378418 TestBowling.java
+CompilationAction 1474458378576 TestBowling.java
+CompilationAction 1474458387019 TestBowling.java
+RefactoringAction 1474458405917 TestBowling.java RENAME TestFrameWithCorrectValues()=>void TestFrameInWithCorrectValues() METHOD
+EditAction 1474458490105 Frame.java 1046 6 10 0

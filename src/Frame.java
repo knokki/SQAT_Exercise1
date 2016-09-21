@@ -6,10 +6,10 @@ public class Frame {
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
 		if (firstThrow > 10 || firstThrow < 0){
-			throw new BowlingException();
+			throw new BowlingException("First throw has improper score");
 		}
 		if (secondThrow > 10 || secondThrow < 0){
-			throw new BowlingException();
+			throw new BowlingException("Second throw has improper score");
 		}
 	}
 	

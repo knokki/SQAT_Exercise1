@@ -1,5 +1,6 @@
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 public class TestBowling {
@@ -7,11 +8,12 @@ public class TestBowling {
 	
 	@Before
 	public void setUp(){
-		Frame frame = new Frame();
+		
 	}
 
-	@Test
-	public void TestFrameWithCorrectValues(){
+	@Test(expected = BowlingException.class)
+	public void TestFrameInWithCorrectValues() throws BowlingException{
+		Frame frame = new Frame(5,5);
 		
 	}
 
