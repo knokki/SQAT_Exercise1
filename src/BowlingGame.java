@@ -58,6 +58,9 @@ public class BowlingGame {
 			}
 			
 		}
+		if (frames.get(9).isSpare()){
+			totalScore += this.bonus.getFirstThrow();
+		}
 		return totalScore;
 	}
 }
