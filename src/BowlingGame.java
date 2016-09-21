@@ -37,11 +37,13 @@ public class BowlingGame {
 				int strikeScore = 10;
 				if (fr != null){
 					 strikeScore += fr.score();
-					 if (fr.isStrike() && i+2 < frames.size() ){
-						 Frame sfr = frames.get(i+2);
-						 if (sfr != null){
-							 strikeScore += sfr.getFirstThrow();
-						 }
+					 if (fr.isStrike()){
+						 if (i+2 < frames.size() ){
+							 Frame sfr = frames.get(i+2);
+							 if (sfr != null){
+								 strikeScore += sfr.getFirstThrow();
+							 }
+					 	 }
 					 }
 				}
 				totalScore += strikeScore;
