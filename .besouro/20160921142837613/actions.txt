@@ -167,3 +167,4 @@ RefactoringAction 1474461999297 Frame.java RENAME Frame()=>Frame(int, int)/2 MET
 RefactoringAction 1474462003837 Frame.java RENAME Frame(int, int)/2=>Frame(int, int, bool) METHOD
 RefactoringAction 1474462005852 Frame.java RENAME Frame(int, int, bool)=>Frame(int, int, boolean) METHOD
 EditAction 1474462007274 Frame.java 1301 7 13 0
+EditAction 1474462043081 BonusFrame.java 177 1 1 0
