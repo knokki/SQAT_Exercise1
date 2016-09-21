@@ -61,3 +61,6 @@ RefactoringAction 1474459068939 TestBowling.java ADD BowlingGame game FIELD
 EditAction 1474459087827 TestBowling.java 851 5 6 1
 EditAction 1474459098225 TestBowling.java 855 5 6 1
 EditAction 1474459140145 TestBowling.java 891 5 7 2
+UnitTestCaseAction 1474459143877 TestBowling.java OK
+UnitTestSessionAction 1474459143878 TestBowling.java OK
+EditAction 1474459586706 BowlingGame.java 870 4 4 0
