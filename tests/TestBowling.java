@@ -52,5 +52,9 @@ public class TestBowling {
 		}
 		assertEquals(48, this.game.score());
 	}
+	@Test 
+	public void TestSimpleGameWithSpareAfterStrike(){
+		
+	}
 
 }

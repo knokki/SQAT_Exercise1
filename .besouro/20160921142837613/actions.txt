@@ -86,3 +86,11 @@ EditAction 1474460130631 TestBowling.java 1461 7 15 4
 UnitTestCaseAction 1474460135617 TestBowling.java OK
 UnitTestSessionAction 1474460135618 TestBowling.java OK
 EditAction 1474460185981 TestBowling.java 1459 7 15 4
+UnitTestCaseAction 1474460189379 TestBowling.java OK
+UnitTestSessionAction 1474460189380 TestBowling.java OK
+RefactoringAction 1474460204629 TestBowling.java ADD void Test FIELD
+RefactoringAction 1474460208141 TestBowling.java RENAME Test=>void TestSimpleGameWith FIELD
+RefactoringAction 1474460218657 TestBowling.java RENAME TestSimpleGameWith=>void TestSimpleGameWithStr FIELD
+RefactoringAction 1474460220175 TestBowling.java RENAME TestSimpleGameWithStr=>void TestSimpleGameWithStrike FIELD
+RefactoringAction 1474460239201 TestBowling.java RENAME TestSimpleGameWithStrike=>void TestSimpleGameWithSpareAfterStrike() METHOD
+EditAction 1474460247149 TestBowling.java 1528 8 15 4
