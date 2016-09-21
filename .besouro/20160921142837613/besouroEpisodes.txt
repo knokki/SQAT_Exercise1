@@ -71,3 +71,5 @@
 1474461553524 test-first 3 186 true
 1474461553525 test-first 3 186 true
 1474461553526 test-last 1 186 false
+1474461657058 test-addition 1 42 true
+1474461657059 test-addition 1 42 true

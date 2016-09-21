@@ -124,6 +124,15 @@ public class TestBowling {
 		this.game.setBonus(10,0);
 		assertEquals(56, this.game.score());
 	}
+	@Test
+	public void TestBestScore() throws BowlingException{
+		for (int i=0; i <0; i++){
+			Frame frame = new Frame(10,0);
+			this.game.addFrame(frame);
+		}
+		this.game.setBonus(10,10);
+		assertEquals(300, game.score());
+	}
 
 
 }
