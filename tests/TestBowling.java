@@ -88,5 +88,16 @@ public class TestBowling {
 		}
 		assertEquals(59, this.game.score());
 	}
+	@Test
+	public void TestLastFrameAsSpare() throws BowlingException{
+		
+		for (int i=0; i <9; i++){
+			Frame frame = new Frame(2,2);
+			this.game.addFrame(frame);
+		}
+		Frame frame = new Frame(5,5);
+		this.game.addFrame(frame);
+		assertEquals(48, this.game.score());
+	}
 
 }

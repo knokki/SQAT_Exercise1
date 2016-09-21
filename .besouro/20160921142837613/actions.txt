@@ -120,3 +120,5 @@ CompilationAction 1474460956969 BowlingGame.java
 EditAction 1474460964467 BowlingGame.java 1419 4 4 0
 EditAction 1474461021317 BowlingGame.java 1472 4 5 0
 EditAction 1474461115537 BowlingGame.java 1556 4 6 0
+RefactoringAction 1474461144912 TestBowling.java ADD void TestLastFrameAsSpare() METHOD
+EditAction 1474461173061 TestBowling.java 2748 11 37 8
