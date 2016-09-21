@@ -31,10 +31,13 @@ public class BowlingGame {
 				if (frames.get(i+1) != null){
 					 strikeScore += frames.get(i+1).score();
 				}
+				totalScore += strikeScore;
 				
 				
+			}else {
+				totalScore += frame.score();
 			}
-			totalScore += frame.score();
+			
 		}
 		return totalScore;
 	}
