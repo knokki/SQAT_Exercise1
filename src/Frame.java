@@ -5,6 +5,9 @@ public class Frame {
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
+		if (firstThrow > 10 || firstThrow < 0){
+			throw new BowlingException();
+		}
 	}
 	
 	public int getFirstThrow() {
