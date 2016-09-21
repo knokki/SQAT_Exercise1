@@ -48,3 +48,8 @@ UnitTestSessionAction 1474458786782 TestBowling.java OK
 RefactoringAction 1474458808876 TestBowling.java ADD void Test FIELD
 RefactoringAction 1474458816891 TestBowling.java RENAME Test=>void TestFrameScoreWithCorrectValues() METHOD
 EditAction 1474458854459 TestBowling.java 623 4 4 1
+UnitTestCaseAction 1474458857412 TestBowling.java OK
+UnitTestSessionAction 1474458857413 TestBowling.java OK
+RefactoringAction 1474458870046 TestBowling.java ADD void TestFrameWithIncorre FIELD
+RefactoringAction 1474458880059 TestBowling.java REMOVE TestFrameWithIncorre FIELD
+EditAction 1474458885440 TestBowling.java 623 4 4 1
