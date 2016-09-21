@@ -32,7 +32,7 @@ public class BowlingGame {
 		int totalScore = 0;
 		for (int i=0; i<10; i++){
 			Frame frame = frames.get(i);
-			if (frame.isStrike()){
+			if (frame.isStrike() && i+1 < frames.size()){
 				Frame fr = frames.get(i+1);
 				int strikeScore = 10;
 				if (fr != null){

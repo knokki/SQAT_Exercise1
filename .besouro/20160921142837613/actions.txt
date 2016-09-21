@@ -140,3 +140,6 @@ RefactoringAction 1474461433140 TestBowling.java ADD void TestLastFrameAsSpare()
 RefactoringAction 1474461439659 TestBowling.java RENAME TestLastFrameAsSpare()/2=>void TestLastFrameAsStrike() METHOD
 EditAction 1474461446240 TestBowling.java 3088 12 43 9
 EditAction 1474461492588 TestBowling.java 3088 12 43 9
+UnitTestCaseAction 1474461497426 TestBowling.java FAIL
+UnitTestSessionAction 1474461497427 TestBowling.java FAIL
+EditAction 1474461531841 BowlingGame.java 1652 4 7 0
