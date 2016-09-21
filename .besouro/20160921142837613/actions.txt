@@ -7,3 +7,10 @@ EditAction 1474457963708 Frame.java 791 6 8 0
 EditAction 1474458104483 BowlingGame.java 627 4 2 0
 RefactoringAction 1474458167134 TestBowling.java REMOVE test() METHOD
 EditAction 1474458237955 Frame.java 873 6 9 0
+CompilationAction 1474458239613 Frame.java
+CompilationAction 1474458279786 Frame.java
+RefactoringAction 1474458303183 TestBowling.java ADD void Test FIELD
+RefactoringAction 1474458328206 TestBowling.java RENAME Test=>void TestFrame FIELD
+RefactoringAction 1474458339217 TestBowling.java RENAME TestFrame=>void TestFrameWithCorrectValues() METHOD
+RefactoringAction 1474458351262 TestBowling.java ADD void setUp() METHOD
+EditAction 1474458357689 TestBowling.java 231 2 1 0
