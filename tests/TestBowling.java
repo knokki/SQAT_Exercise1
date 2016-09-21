@@ -100,5 +100,18 @@ public class TestBowling {
 		this.game.setBonus(2,0);
 		assertEquals(48, this.game.score());
 	}
+	@Test
+	public void TestLastFrameAsStrike() throws BowlingException{
+		
+		for (int i=0; i <9; i++){
+			Frame frame = new Frame(2,2);
+			this.game.addFrame(frame);
+		}
+		Frame frame = new Frame(10,0);
+		this.game.addFrame(frame);
+		this.game.setBonus(2,0);
+		assertEquals(48, this.game.score());
+	}
+
 
 }
