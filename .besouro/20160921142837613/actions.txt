@@ -162,3 +162,8 @@ FileOpenedAction 1474461907544 BonusFrame.java 48 0 0 0
 CompilationAction 1474461907555 BonusFrame.java
 RefactoringAction 1474461912590 BonusFrame.java ADD BonusFrame(int, int) METHOD
 EditAction 1474461923531 BonusFrame.java 171 1 1 0
+RefactoringAction 1474461980761 Frame.java ADD Frame() METHOD
+RefactoringAction 1474461999297 Frame.java RENAME Frame()=>Frame(int, int)/2 METHOD
+RefactoringAction 1474462003837 Frame.java RENAME Frame(int, int)/2=>Frame(int, int, bool) METHOD
+RefactoringAction 1474462005852 Frame.java RENAME Frame(int, int, bool)=>Frame(int, int, boolean) METHOD
+EditAction 1474462007274 Frame.java 1301 7 13 0
