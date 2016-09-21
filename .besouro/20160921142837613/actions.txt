@@ -95,3 +95,9 @@ RefactoringAction 1474460220175 TestBowling.java RENAME TestSimpleGameWithStr=>v
 RefactoringAction 1474460239201 TestBowling.java RENAME TestSimpleGameWithStrike=>void TestSimpleGameWithSpareAfterStrike() METHOD
 EditAction 1474460247149 TestBowling.java 1528 8 15 4
 EditAction 1474460297495 TestBowling.java 1802 8 21 5
+UnitTestCaseAction 1474460300913 TestBowling.java OK
+UnitTestSessionAction 1474460300914 TestBowling.java OK
+RefactoringAction 1474460362935 TestBowling.java ADD void Test FIELD
+RefactoringAction 1474460374954 TestBowling.java RENAME Test=>void TestMultipleStrikesIn FIELD
+RefactoringAction 1474460376470 TestBowling.java RENAME TestMultipleStrikesIn=>void TestMultipleStrikesInGame() METHOD
+EditAction 1474460391019 TestBowling.java 2072 9 26 5

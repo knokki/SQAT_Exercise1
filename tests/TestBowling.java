@@ -64,5 +64,16 @@ public class TestBowling {
 		}
 		assertEquals(64, this.game.score());
 	}
+	@Test
+	public void TestMultipleStrikesInGame(){
+		Frame frame = new Frame(10,0);
+		this.game.addFrame(frame);
+		frame = new Frame(10,0);
+		this.game.addFrame(frame);
+		for (int i=0; i <8; i++){
+			frame = new Frame(2,2);
+			this.game.addFrame(frame);
+		}
+	}
 
 }
