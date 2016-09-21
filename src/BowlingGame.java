@@ -44,6 +44,9 @@ public class BowlingGame {
 								 strikeScore += sfr.getFirstThrow();
 							 }
 					 	 }
+						 else if (i+2 == 12){
+							 strikeScore += bonus.getSecondThrow();
+						 }
 					 }
 				}
 				totalScore += strikeScore;
