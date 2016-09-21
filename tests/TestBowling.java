@@ -76,5 +76,17 @@ public class TestBowling {
 		}
 		assertEquals(68, this.game.score());
 	}
+	@Test
+	public void TestMultipleSparesInAGame() throws BowlingException{
+		Frame frame = new Frame(5,5);
+		this.game.addFrame(frame);
+		frame = new Frame(5,5);
+		this.game.addFrame(frame);
+		for (int i=0; i <8; i++){
+			frame = new Frame(2,2);
+			this.game.addFrame(frame);
+		}
+		assertEquals(68, this.game.score());
+	}
 
 }
