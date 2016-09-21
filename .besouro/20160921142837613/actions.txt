@@ -74,3 +74,12 @@ EditAction 1474459852694 TestBowling.java 1179 6 11 3
 UnitTestCaseAction 1474459857130 TestBowling.java OK
 UnitTestSessionAction 1474459857132 TestBowling.java OK
 EditAction 1474460033721 BowlingGame.java 1102 4 4 0
+RefactoringAction 1474460057226 TestBowling.java ADD void Test FIELD
+RefactoringAction 1474460059742 TestBowling.java RENAME Test=>void TestSim FIELD
+RefactoringAction 1474460061757 TestBowling.java RENAME TestSim=>void TestSimpleGame FIELD
+RefactoringAction 1474460063269 TestBowling.java RENAME TestSimpleGame=>void TestSimpleGameWith FIELD
+RefactoringAction 1474460065781 TestBowling.java RENAME TestSimpleGameWith=>void TestSimpleGameWithASingle FIELD
+RefactoringAction 1474460067796 TestBowling.java RENAME TestSimpleGameWithASingle=>void TestSimpleGameWithASinglesP FIELD
+RefactoringAction 1474460069315 TestBowling.java RENAME TestSimpleGameWithASinglesP=>void TestSimpleGameWithASingles FIELD
+RefactoringAction 1474460074331 TestBowling.java RENAME TestSimpleGameWithASingles=>void TestSimpleGameWithASinglesSpare() METHOD
+EditAction 1474460130631 TestBowling.java 1461 7 15 4
