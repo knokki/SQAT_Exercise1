@@ -66,3 +66,6 @@ UnitTestSessionAction 1474459143878 TestBowling.java OK
 EditAction 1474459586706 BowlingGame.java 870 4 4 0
 EditAction 1474459624345 BowlingGame.java 920 4 4 0
 EditAction 1474459654333 BowlingGame.java 908 4 4 0
+RefactoringAction 1474459675808 TestBowling.java ADD void TestSimpleWholeGameWithA() METHOD
+RefactoringAction 1474459679326 TestBowling.java RENAME TestSimpleWholeGameWithA()=>void TestSimpleWholeGameWithASingleStrike() METHOD
+EditAction 1474459679378 TestBowling.java 1121 6 9 3
