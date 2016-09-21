@@ -53,3 +53,4 @@ UnitTestSessionAction 1474458857413 TestBowling.java OK
 RefactoringAction 1474458870046 TestBowling.java ADD void TestFrameWithIncorre FIELD
 RefactoringAction 1474458880059 TestBowling.java REMOVE TestFrameWithIncorre FIELD
 EditAction 1474458885440 TestBowling.java 623 4 4 1
+EditAction 1474458964138 BowlingGame.java 678 4 4 0
