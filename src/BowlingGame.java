@@ -34,7 +34,7 @@ public class BowlingGame {
 			Frame frame = frames.get(i);
 			if (frame.isStrike()){
 				int strikeScore = 10;
-				if ( i+1 < frames.size()){
+				if (i+1 < frames.size()){
 					Frame fr = frames.get(i+1);
 					
 					if (fr != null){
@@ -49,7 +49,7 @@ public class BowlingGame {
 							 else if (i+2 == 12){
 								 strikeScore += bonus.getSecondThrow();
 							 }
-							 else if (i+2 == 11){
+							 else if (i+1 == 11){
 								 strikeScore += bonus.getFirstThrow();
 							 }
 						 }
@@ -57,7 +57,7 @@ public class BowlingGame {
 				}
 				else if (i+2 == 11){
 					 strikeScore += bonus.getFirstThrow();
-				 }
+				}
 			
 				totalScore += strikeScore;
 			}
