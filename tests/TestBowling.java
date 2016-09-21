@@ -133,6 +133,31 @@ public class TestBowling {
 		this.game.setBonus(10,10);
 		assertEquals(300, game.score());
 	}
+	@Test
+	public void TestRealGame() throws BowlingException{
+		Frame fr = new Frame(6,3);
+		this.game.addFrame(fr);
+		fr = new Frame(7,1);
+		this.game.addFrame(fr);
+		fr = new Frame(8,2);
+		this.game.addFrame(fr);
+		fr = new Frame(7,2);
+		this.game.addFrame(fr);
+		fr = new Frame(10,0);
+		this.game.addFrame(fr);
+		fr = new Frame(6,2);
+		this.game.addFrame(fr);
+		fr = new Frame(7,3);
+		this.game.addFrame(fr);
+		fr = new Frame(10,0);
+		this.game.addFrame(fr);
+		fr = new Frame(8,0);
+		this.game.addFrame(fr);
+		fr = new Frame(7,3);
+		this.game.addFrame(fr);
+		game.setBonus(10, 0);
+		assertEquals(135, game.score());
+	}
 
 
 }
