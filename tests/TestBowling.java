@@ -97,6 +97,7 @@ public class TestBowling {
 		}
 		Frame frame = new Frame(5,5);
 		this.game.addFrame(frame);
+		this.game.setBonus(2,0);
 		assertEquals(48, this.game.score());
 	}
 
