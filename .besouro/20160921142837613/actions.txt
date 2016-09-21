@@ -69,3 +69,4 @@ EditAction 1474459654333 BowlingGame.java 908 4 4 0
 RefactoringAction 1474459675808 TestBowling.java ADD void TestSimpleWholeGameWithA() METHOD
 RefactoringAction 1474459679326 TestBowling.java RENAME TestSimpleWholeGameWithA()=>void TestSimpleWholeGameWithASingleStrike() METHOD
 EditAction 1474459679378 TestBowling.java 1121 6 9 3
+EditAction 1474459781024 TestBowling.java 1179 6 11 3

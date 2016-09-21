@@ -34,8 +34,10 @@ public class TestBowling {
 	}
 	@Test
 	public void TestSimpleWholeGameWithASingleStrike() throws BowlingException{
+		Frame frame = new Frame(10,0);
+		this.game.addFrame(frame);
 		for (int i=0; i <10; i++){
-			Frame frame = new Frame(2,2);
+			frame = new Frame(2,2);
 			this.game.addFrame(frame);
 		}
 		assertEquals(40, this.game.score());
