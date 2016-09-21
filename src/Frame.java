@@ -11,6 +11,9 @@ public class Frame {
 		if (secondThrow > 10 || secondThrow < 0){
 			throw new BowlingException("Second throw has improper score");
 		}
+		if (firstThrow + secondThrow > 10){
+			throw new BowlingException("Too mant scores given in single frame");
+		}
 	}
 	
 	public int getFirstThrow() {
