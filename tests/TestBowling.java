@@ -16,8 +16,13 @@ public class TestBowling {
 		Frame frame = new Frame(5,11);
 	}
 	@Test (expected = BowlingException.class)
-	public void TestFrameWithTooHighScore(){
+	public void TestFrameWithTooHighScore() throws BowlingException{
 		Frame frame = new Frame(9,9);
+	}
+	@Test
+	public void TestFrameScoreWithCorrectValues() throws BowlingException{
+		Frame frame = new Frame(4,5);
+		assertEquals(9, frame.score());
 	}
 
 }

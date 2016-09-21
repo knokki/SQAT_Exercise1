@@ -41,3 +41,10 @@ RefactoringAction 1474458761221 TestBowling.java ADD void TestFrame FIELD
 RefactoringAction 1474458763737 TestBowling.java RENAME TestFrame=>void TestFrameWithTooHi FIELD
 RefactoringAction 1474458766753 TestBowling.java RENAME TestFrameWithTooHi=>void TestFrameWithTooHighScore() METHOD
 EditAction 1474458777201 TestBowling.java 446 3 2 0
+CompilationAction 1474458778730 TestBowling.java
+CompilationAction 1474458784330 TestBowling.java
+UnitTestCaseAction 1474458786781 TestBowling.java OK
+UnitTestSessionAction 1474458786782 TestBowling.java OK
+RefactoringAction 1474458808876 TestBowling.java ADD void Test FIELD
+RefactoringAction 1474458816891 TestBowling.java RENAME Test=>void TestFrameScoreWithCorrectValues() METHOD
+EditAction 1474458854459 TestBowling.java 623 4 4 1
