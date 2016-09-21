@@ -32,8 +32,6 @@ public class BowlingGame {
 					 strikeScore += frames.get(i+1).score();
 				}
 				totalScore += strikeScore;
-				
-				
 			}else {
 				totalScore += frame.score();
 			}
