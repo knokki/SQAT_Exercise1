@@ -83,3 +83,6 @@ RefactoringAction 1474460067796 TestBowling.java RENAME TestSimpleGameWithASingl
 RefactoringAction 1474460069315 TestBowling.java RENAME TestSimpleGameWithASinglesP=>void TestSimpleGameWithASingles FIELD
 RefactoringAction 1474460074331 TestBowling.java RENAME TestSimpleGameWithASingles=>void TestSimpleGameWithASinglesSpare() METHOD
 EditAction 1474460130631 TestBowling.java 1461 7 15 4
+UnitTestCaseAction 1474460135617 TestBowling.java OK
+UnitTestSessionAction 1474460135618 TestBowling.java OK
+EditAction 1474460185981 TestBowling.java 1459 7 15 4

@@ -36,7 +36,7 @@ public class TestBowling {
 	public void TestSimpleWholeGameWithASingleStrike() throws BowlingException{
 		Frame frame = new Frame(10,0);
 		this.game.addFrame(frame);
-		for (int i=0; i <10; i++){
+		for (int i=0; i <9; i++){
 			frame = new Frame(2,2);
 			this.game.addFrame(frame);
 		}
@@ -46,7 +46,7 @@ public class TestBowling {
 	public void TestSimpleGameWithASinglesSpare() throws BowlingException{
 		Frame frame = new Frame(5,5);
 		this.game.addFrame(frame);
-		for (int i=0; i <10; i++){
+		for (int i=0; i <9; i++){
 			frame = new Frame(2,2);
 			this.game.addFrame(frame);
 		}
