@@ -61,6 +61,9 @@ public class BowlingGame {
 		if (frames.get(9).isSpare()){
 			totalScore += this.bonus.getFirstThrow();
 		}
+		f (frames.get(9).isStrike()){
+			totalScore += this.bonus.score();
+		}
 		return totalScore;
 	}
 }
