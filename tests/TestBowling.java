@@ -15,5 +15,9 @@ public class TestBowling {
 	public void TestFrameInWithCorrectValues() throws BowlingException{
 		Frame frame = new Frame(5,11);
 	}
+	@Test (expected = BowlingException.class)
+	public void TestFrameWithTooHighScore(){
+		Frame frame = new Frame(9,9);
+	}
 
 }
